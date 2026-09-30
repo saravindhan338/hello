@@ -1,0 +1,176 @@
+import { ComicStory } from "../types/comic";
+
+export const SAMPLE_COMICS: ComicStory[] = [
+  {
+    id: "comic-scenario-1",
+    title: "Echoes of the Lumina Grove: Rusty's Awakening",
+    synopsis: "When ancient bioluminescent spores ignite across the forgotten Lumina Forest, a courageous fox named Rusty embarks on a peril-fraught quest to protect the sacred Heartwood before eternal dusk falls.",
+    prompt: "A brave fox exploring an enchanted forest.",
+    characterName: "Rusty",
+    setting: "Enchanted Lumina Forest",
+    tone: "dramatic",
+    artStyle: "anime",
+    panelCount: 4,
+    createdAt: "2026-09-30T06:00:00.000Z",
+    mainCharacter: {
+      name: "Rusty",
+      visualDescription: "An agile red fox with bright sapphire eyes, wearing a weathered traveler's scarf and a small satchel containing glowing star-seeds.",
+    },
+    panels: [
+      {
+        panelNumber: 1,
+        panelTitle: "The Whispering Canopy",
+        cameraAngle: "Wide cinematic establishing shot",
+        imagePrompt: "A spirited red fox with glowing sapphire eyes and a ragged emerald travel scarf, stepping carefully onto moss-covered roots of colossal glowing willow trees in an enchanted mystical forest, anime Studio Ghibli aesthetic, floating starlight spores, dramatic twilight lighting",
+        imageUrl: "https://images.unsplash.com/photo-1516934024742-b461fba47600?auto=format&fit=crop&w=800&q=80",
+        caption: "Deep within the Lumina Grove, the ancient trees hummed an eerie melody that hadn't been heard in a thousand seasons.",
+        dialogues: [
+          {
+            speaker: "Rusty",
+            text: "The whispers are real... the forest is calling for a guardian.",
+            type: "thought",
+          },
+        ],
+        soundEffect: "HUMMM...",
+        soundEffectColor: "#38bdf8",
+      },
+      {
+        panelNumber: 2,
+        panelTitle: "The Shadow Guardian Emerges",
+        cameraAngle: "Low dynamic angle",
+        imagePrompt: "A red fox looking up in surprise at an ancient stone golem covered in glowing cyan moss standing as a guardian in an enchanted forest, anime Makoto Shinkai style, dramatic tension, ethereal mist, cinematic contrast",
+        imageUrl: "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=80",
+        caption: "A monolithic shadow stepped from between the ancient roots. The guardian had awakened.",
+        dialogues: [
+          {
+            speaker: "Rusty",
+            text: "Halt! I carry no malice, only the seed of the elder flame!",
+            type: "shout",
+          },
+        ],
+        soundEffect: "RUMBLE!!",
+        soundEffectColor: "#f59e0b",
+      },
+      {
+        panelNumber: 3,
+        panelTitle: "A Pact of Light",
+        cameraAngle: "Close-up eye contact",
+        imagePrompt: "Close-up of a brave fox touching noses with a gentle glowing stone forest spirit, sparkling magic particles, warm golden and cyan glow, touching anime emotional scene, masterpiece",
+        imageUrl: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+        caption: "In the creature's crystalline eyes, Rusty saw not fury, but centuries of solitude waiting for a worthy ally.",
+        dialogues: [
+          {
+            speaker: "Rusty",
+            text: "We stand together. The dark will not take our home.",
+            type: "whisper",
+          },
+        ],
+        soundEffect: "SHHHRRRING!",
+        soundEffectColor: "#10b981",
+      },
+      {
+        panelNumber: 4,
+        panelTitle: "The Dawn of the Heartwood",
+        cameraAngle: "Panoramic high shot",
+        imagePrompt: "Epic panoramic vista of a red fox standing on a high cliff overlooking an enchanted luminous forest bathing in the golden sunrise, magical glowing canopy, anime fantasy masterpiece, vibrant colors",
+        imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        caption: "As dawn crested the emerald peaks, the grove shone with renewed splendor. A legend was born.",
+        dialogues: [
+          {
+            speaker: "Rusty",
+            text: "Our journey has only just begun.",
+            type: "speech",
+          },
+        ],
+        soundEffect: "WHOOSH!",
+        soundEffectColor: "#ec4899",
+      },
+    ],
+  },
+  {
+    id: "comic-scenario-2",
+    title: "The Case of the Missing Blueberry Pie!",
+    synopsis: "When Mrs. Gable's prized blue-ribbon pie vanishes minutes before the Neo-City Bake-Off, Detective Gizmo the clumsiest tin-can robot in town vows to crack the sweetest case in history.",
+    prompt: "A clumsy robot detective trying to solve the mystery of the missing blueberry pie in a quirky downtown bakery.",
+    characterName: "Gizmo",
+    setting: "Downtown Neo-Bakery",
+    tone: "funny",
+    artStyle: "comic book",
+    panelCount: 4,
+    createdAt: "2026-09-30T06:05:00.000Z",
+    mainCharacter: {
+      name: "Gizmo",
+      visualDescription: "A slightly dented copper robot wearing a trench coat two sizes too large, a fedora with a magnifying glass stuck in the band, and glowing blinking yellow eyes.",
+    },
+    panels: [
+      {
+        panelNumber: 1,
+        panelTitle: "Crime Scene at Sunrise",
+        cameraAngle: "Dutch angle / Comedic tilt",
+        imagePrompt: "A funny vintage brass robot detective in a trench coat and fedora inspecting an empty pie pan with magnifying glass in a retro pastel bakery, classic western comic book style, bold ink lines, halftone dots, flour flying in the air",
+        imageUrl: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+        caption: "0800 hours. The air smelled of cinnamon, vanilla, and foul bakery espionage.",
+        dialogues: [
+          {
+            speaker: "Gizmo",
+            text: "Elementary! The crumb trajectory indicates an inside job... or a very tall pigeon!",
+            type: "speech",
+          },
+        ],
+        soundEffect: "SNIFF SNIFF!",
+        soundEffectColor: "#f59e0b",
+      },
+      {
+        panelNumber: 2,
+        panelTitle: "The Sticky Blue Clue",
+        cameraAngle: "Low angle comedic stumble",
+        imagePrompt: "Clumsy robot detective slipping on blueberry jam footprints on checkered bakery floor, comic book pop art style, bold onomatopoeia, exclamation marks, colorful cartoon physics",
+        imageUrl: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=80",
+        caption: "Following the evidence required extreme precision and cat-like reflexes. Neither of which Gizmo had.",
+        dialogues: [
+          {
+            speaker: "Gizmo",
+            text: "WHOA WHOA WHOA! My hydraulic fluid is NOT calibrated for fruit preserves!",
+            type: "shout",
+          },
+        ],
+        soundEffect: "SLIIIIP! CRASH!",
+        soundEffectColor: "#ef4444",
+      },
+      {
+        panelNumber: 3,
+        panelTitle: "The Culprit Unmasked",
+        cameraAngle: "Medium shot surprise",
+        imagePrompt: "Robot detective gasping as he points his finger at a chubby pug dog with blue jam all over its snout sitting under a wooden bakery counter, comic book art, hilarious funny expression, halftone color print",
+        imageUrl: "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=800&q=80",
+        caption: "Behind the flour sacks, the mastermind was caught red-handed. Or rather, blue-tongued.",
+        dialogues: [
+          {
+            speaker: "Gizmo",
+            text: "Aha! Professor Paws! You had the motive, the opportunity, and crumbs on your whiskers!",
+            type: "speech",
+          },
+        ],
+        soundEffect: "GASSPP!",
+        soundEffectColor: "#8b5cf6",
+      },
+      {
+        panelNumber: 4,
+        panelTitle: "Case Closed, Nap Commenced",
+        cameraAngle: "Wide humorous finale",
+        imagePrompt: "Funny robot detective and pug sharing a slice of backup pie on a sunny bakery bench, classic silver age comic book style, hearts and happy bubbles, wholesome funny ending",
+        imageUrl: "https://images.unsplash.com/photo-1508873696983-2df5293cb32f?auto=format&fit=crop&w=800&q=80",
+        caption: "Justice had been served. With a generous side of whipped cream.",
+        dialogues: [
+          {
+            speaker: "Gizmo",
+            text: "I'll let you off with a warning this time, suspect. But this pie is confiscated for forensics!",
+            type: "speech",
+          },
+        ],
+        soundEffect: "CHOMP!",
+        soundEffectColor: "#10b981",
+      },
+    ],
+  },
+];

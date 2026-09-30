@@ -1,0 +1,6 @@
+{
+  "name": "ComicCraft AI",
+  "description": "AI-powered personalized comic book generator and reader. Create panel-by-panel storylines, dialogues, and vivid comic-style illustrations with customizable art styles, tones, and professional PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
